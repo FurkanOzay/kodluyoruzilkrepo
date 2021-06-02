@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+    .container-fluid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container{
+            width: 90%;
+            height: auto;
+
+            nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin-bottom: 50px;
+
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    width: 20%;
+
+                    img{
+                        width: 80px;
+                    }
+                }
+                .nav-item{
+                    display: flex;
+                    justify-content: space-around;
+                    width: 70%;
+                    color: #044918;
+
+                    a{
+                        text-decoration: none;
+
+                    }
+                }
+            }
+            //Nav Style End
+
+            //About Start
+            .about{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #ffffff;
+                margin-bottom: 120px;
+
+                img{
+                    width: 300px;
+                }
+
+                p{
+                    text-align: center;
+                    width: 40%;
+                    color: #044918;
+                }
+            }
+            //About End
+
+            //Songs
+            .songs{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin-bottom: 120px;
+
+                .row{
+                    display: flex;
+                    width: 90%;
+                    height: auto;
+
+                    .half{
+                        display: flex;
+                        justify-content: space-around;
+
+                        width: 50%;
+                        .card{
+                            width: auto;
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+            //Song End
+
+            //Contact
+            .contact{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                text-align: center;
+                margin-bottom: 50px;
+
+                a{
+                    text-decoration: none;
+                    color: #044918;
+                }
+            }
+
+        }
+    }
+}
